@@ -55,11 +55,9 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/mdit-py-plugins-0.4.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/mdurl-0.1.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/mistune-3.0.2-pyhd8ed1ab_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.3.17-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/nbclient-0.10.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/nbconvert-core-7.16.4-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/nbformat-5.10.4-pyhd8ed1ab_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/win-64/nodejs-22.9.0-h57928b3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/openssl-3.4.0-h2466b09_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/overrides-7.7.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/packaging-24.1-pyhd8ed1ab_0.conda
@@ -978,22 +976,6 @@ packages:
   size: 66022
   timestamp: 1698947249750
 - kind: conda
-  name: mystmd
-  version: 1.3.17
-  build: pyhd8ed1ab_0
-  subdir: noarch
-  noarch: python
-  url: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.3.17-pyhd8ed1ab_0.conda
-  sha256: 214dee2773b0c07b002eb94888abe55f7d936ccc54698dfa02cf76867172cf34
-  md5: 40e4fd25d5e9e51f52c1270d81fa80c4
-  depends:
-  - nodejs >=18
-  - python >=3.8
-  license: MIT
-  license_family: MIT
-  size: 1912802
-  timestamp: 1730783215994
-- kind: conda
   name: nbclient
   version: 0.10.0
   build: pyhd8ed1ab_0
@@ -1066,18 +1048,6 @@ packages:
   license_family: BSD
   size: 101232
   timestamp: 1712239122969
-- kind: conda
-  name: nodejs
-  version: 22.9.0
-  build: h57928b3_0
-  subdir: win-64
-  url: https://conda.anaconda.org/conda-forge/win-64/nodejs-22.9.0-h57928b3_0.conda
-  sha256: 6d74f0dbb91eb2049199ba801a3db67965f990aef44084f9ae51a1f70c2996f6
-  md5: 6aa54ed90a643a11a005491ff316b1c4
-  license: MIT
-  license_family: MIT
-  size: 25378221
-  timestamp: 1726657153171
 - kind: conda
   name: openssl
   version: 3.4.0
