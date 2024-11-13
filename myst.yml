@@ -1,0 +1,15 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 2a772822-aa95-4c23-9b4a-2c7d755fdae9
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/riziles/mystmd-quickstart_test
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
